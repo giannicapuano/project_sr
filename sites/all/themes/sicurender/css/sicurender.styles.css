@@ -1,0 +1,14 @@
+img, media {
+  max-width: 100%;
+}
+
+div#toolbar{
+	display:none;
+}
+
+body div#toolbar.toolbar{
+	display: none;
+	background: black;
+}
+	
+/* No files to import found in partials/components/**\/* */
