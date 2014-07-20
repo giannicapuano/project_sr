@@ -12,3 +12,44 @@ body div#toolbar.toolbar{
 }
 	
 /* No files to import found in partials/components/**\/* */
+
+nav.block--system-main-menu > h2{
+	display: none;
+}
+
+nav.block--system-main-menu{
+	display: table;
+	table-layout: fixed;
+	margin-left: 20%;
+
+}
+
+div.navbar-wrapper{
+background: #f2f7f9; /* Old browsers */
+background: -moz-linear-gradient(top,  #f2f7f9 100%, #c3c9c8 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(100%,#f2f7f9), color-stop(100%,#c3c9c8)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #f2f7f9 100%,#c3c9c8 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #f2f7f9 100%,#c3c9c8 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #f2f7f9 100%,#c3c9c8 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #f2f7f9 100%,#c3c9c8 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f7f9', endColorstr='#c3c9c8',GradientType=0 ); /* IE6-9 */
+height:50px;
+box-shadow:  3px 3px 6px #ccc;
+}
+
+.l-region--navigation .block-image{
+	margin-left:50px;
+	
+}
+
+.menu .leaf {
+	list-style-image: none;
+	list-style-type: none; 
+	float: left;
+	margin-right: 30px;
+}
+
+div#block-imageblock-1 > div > div.block-image{
+	overflow: hidden;
+	float: left;
+}

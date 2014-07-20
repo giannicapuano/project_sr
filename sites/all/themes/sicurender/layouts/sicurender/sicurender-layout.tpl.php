@@ -1,7 +1,9 @@
 <div<?php print $attributes; ?>>
   <header class="l-header" role="banner">
   	
-  	<?php print render($page['navigation']); ?>
+  	<div class="navbar-wrapper">
+  		<?php print render($page['navigation']); ?>
+  	</div>
   	
     <div class="l-branding">
       <?php if ($logo): ?>
