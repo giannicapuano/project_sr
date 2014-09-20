@@ -33,12 +33,27 @@ background: -o-linear-gradient(top,  #f2f7f9 100%,#c3c9c8 100%); /* Opera 11.10+
 background: -ms-linear-gradient(top,  #f2f7f9 100%,#c3c9c8 100%); /* IE10+ */
 background: linear-gradient(to bottom,  #f2f7f9 100%,#c3c9c8 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f7f9', endColorstr='#c3c9c8',GradientType=0 ); /* IE6-9 */
-height:50px;
+height:70px;
 box-shadow:  3px 3px 6px #ccc;
+}
+
+div.navbar-wrapper nav ul{
+	margin-top:22px;
+}
+
+div.navbar-wrapper nav ul li a{
+	text-decoration: none;
+	padding:25px 20px;
+}
+
+
+div.navbar-wrapper nav ul li a:hover{
+	background-color: #CCC;	
 }
 
 .l-region--navigation .block-image{
 	margin-left:50px;
+	margin-top: 10px;
 	
 }
 
@@ -46,10 +61,140 @@ box-shadow:  3px 3px 6px #ccc;
 	list-style-image: none;
 	list-style-type: none; 
 	float: left;
-	margin-right: 30px;
 }
 
 div#block-imageblock-1 > div > div.block-image{
 	overflow: hidden;
 	float: left;
 }
+
+/* SLIDER */
+/**********/
+div.pane-sliderhome{
+	background-color:#e1e1e1;
+	width: 100%;
+	clear: both;
+	position: absolute;
+	padding: 0;
+	left:0;
+}
+
+div.views-slideshow-cycle-main-frame-row-item div.title {
+	text-transform: uppercase;
+	position: absolute;
+	max-width: 300px;
+	top: 50px;
+	left: 400px;
+	font-size: 20pt;
+}
+
+div.views-slideshow-cycle-main-frame-row-item div.views-field-field-descrizione div.field-content{
+	float: left;
+	clear: both;
+	margin: -100px 0px 0px 400px;
+	font-size: 12pt;
+	max-width: 500px;
+	margin-top:-120px;
+}
+
+div.views-slideshow-cycle-main-frame-row-item div.scopri-di-piu{
+	float: right;
+	margin-top: -50px;
+}
+
+div#views_slideshow_cycle_teaser_section_sliderhome-default{
+	margin:auto;
+}
+
+
+/***** SCOPRI DI PIU *****/
+/*************************/
+
+div.scopri-di-piu{
+	width:160px;
+	height:35px;
+	
+	
+}
+
+div.scopri-di-piu a{
+	color: #FFFFFF;
+	text-decoration:none;
+	text-align:center;
+	background: #333333; /* Old browsers */
+	background: -moz-linear-gradient(top,  #333333 0%, #666666 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#333333), color-stop(100%,#666666)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #333333 0%,#666666 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #333333 0%,#666666 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #333333 0%,#666666 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #333333 0%,#666666 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333333', endColorstr='#666666',GradientType=0 ); /* IE6-9 */
+	border-radius:5px;
+	padding:8px 20px;
+	font-size: 10px;
+	text-transform: uppercase;
+}
+
+div.scopri-di-piu a:after{
+	content:"";
+	background:url(../images/assets/cta-arrow.png);
+	display: inline-block;
+	width: 4px;
+	height: 5px;
+	margin: 1px 7px;
+}
+
+/* SEZIONI HOME */
+/****************/
+
+div.view-home-sezioni div.views-row{
+	float:left;
+	max-width:240px;
+	margin-right: 40px
+}
+
+div.view-home-sezioni div.views-row-last{
+	margin-right:0;
+}
+div.view-home-sezioni div.view-content{
+	font-size: 10pt;
+	overflow: hidden;
+	margin: 300px auto auto auto;
+	max-width: 85%;
+}
+
+div.view-home-sezioni div.view-content div.views-field-field-image img{
+	max-width: 100%;
+	width: 35px;
+	height: 35px;
+	float: right;
+	margin: -30px 0 0 0;
+}
+
+.views-field.views-field-title{
+	max-width: 120px;
+	min-height:30px;
+}
+
+.views-field.views-field-title span{
+	font-weight: bold;
+}
+
+.panel-3col-stacked .panel-col{
+	width:100%;
+}
+
+.views-field.views-field-body p{
+	max-width:160px;
+	min-height:80px;
+}
+
+/* FOOTER */
+.l-footer{
+	max-width: 100%;
+	height: 50px;
+	margin-bottom:0;
+	background:#000;
+	color:#FFF;
+}
+
